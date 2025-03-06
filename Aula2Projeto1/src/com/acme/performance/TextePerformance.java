@@ -27,9 +27,10 @@ public class TextePerformance {
         a1.setRg(999999);
         lista.add(a1);
         
+        boolean res = lista.contains(99999);
         long fim = System.currentTimeMillis();
                 
-        
+        System.out.println(res);
         System.out.println("Tempo para colocar: "+(fim-inicio));
     }
     
