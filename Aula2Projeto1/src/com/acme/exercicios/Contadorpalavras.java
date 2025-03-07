@@ -1,6 +1,14 @@
 package com.acme.exercicios;
 
+import static java.lang.System.in;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.concurrent.CopyOnWriteArrayList;
+import javax.swing.SortOrder;
 
 public class Contadorpalavras {
 
@@ -15,13 +23,41 @@ public class Contadorpalavras {
         
         System.out.println("Numero de palavras: "+ palavras.length);
         
-        HashSet<String> mySet = new HashSet<>();
+        //HashSet<String> mySet = new HashSet<>();
+        //for(String p: palavras){
+        //    mySet.add(p);
+        //}
+        //System.out.println("Palavras únicas: "+mySet.size());
         
-        for(String p: palavras){
-            mySet.add(p);
+        /*A partir daqui, eu busco pela palavra e vai me dizer quantas vezes ela aparece
+        Scanner scan = new Scanner(in);
+        String p1 ="";
+        
+        System.out.println("Digite a palavra q vc deseja procurar: ");
+        p1 = scan.nextLine();
+        
+        while (!p1.equals("000")){
+           int contagemIguais = 0;
+           for(String s : palavras){   
+               if(p1.equals(s)){
+                    contagemIguais++;
+                }
+            } 
+           System.out.println(" "+p1);
+           System.out.println("Numero de vezes que a palavra acima repetiu: "+contagemIguais);
+           System.out.println("Digite a palavra q vc deseja procurar: ");
+           p1 = scan.nextLine();
         }
-       
-        System.out.println("Palavras únicas: "+mySet.size());
-    }
-
+        */
+        
+        
+        //fazer o sort
+        
+                
+        }
+    
 }
+    
+    
+
+
