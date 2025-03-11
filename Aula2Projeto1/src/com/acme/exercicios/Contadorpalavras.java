@@ -2,10 +2,12 @@ package com.acme.exercicios;
 
 import static java.lang.System.in;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.CopyOnWriteArrayList;
 import javax.swing.SortOrder;
@@ -23,14 +25,14 @@ public class Contadorpalavras {
         
         System.out.println("Numero de palavras: "+ palavras.length);
         
-        //HashSet<String> mySet = new HashSet<>();
-        //for(String p: palavras){
-        //    mySet.add(p);
-        //}
-        //System.out.println("Palavras únicas: "+mySet.size());
+        HashSet<String> mySet = new HashSet<>();
+        for(String p: palavras){
+            mySet.add(p);
+        }
+        System.out.println("Palavras únicas: "+mySet.size());
         
-        /*A partir daqui, eu busco pela palavra e vai me dizer quantas vezes ela aparece
-        Scanner scan = new Scanner(in);
+        //A partir daqui, eu busco pela palavra e vai me dizer quantas vezes ela aparece
+        /*Scanner scan = new Scanner(in);
         String p1 ="";
         
         System.out.println("Digite a palavra q vc deseja procurar: ");
@@ -47,13 +49,22 @@ public class Contadorpalavras {
            System.out.println("Numero de vezes que a palavra acima repetiu: "+contagemIguais);
            System.out.println("Digite a palavra q vc deseja procurar: ");
            p1 = scan.nextLine();
-        }
-        */
+        } */
+        
         
         
         //fazer o sort
+        List<String> palavrasEmOrdem = Arrays.asList(palavras);
         
-                
+        Collections.sort(palavrasEmOrdem);
+        String resposta = """
+                          Palavras em ordem: %s
+                          """.formatted(palavrasEmOrdem);
+        
+        System.out.println(resposta);
+        
+        //ordem decrescente de frequência
+        HashMap<String, Integer> frequencia = new HashMap<>();
         }
     
 }

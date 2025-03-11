@@ -30,10 +30,10 @@ public class TextBlock {
         String address = "rua tal";
         Float salary = 25000.56f;
         String output = """
-    Name: %s
-    Phone: %s
-    Address: %s
-    Salary: $%.2f
+                Name: %s Phone: %s
+                
+                Address: %s
+                Salary: $%.2f
     """.formatted(name, phone, address, salary);
         
         System.out.println(output);
