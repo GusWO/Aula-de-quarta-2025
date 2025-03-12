@@ -27,7 +27,7 @@ public class TextePerformance {
         a1.setRg(999999);
         lista.add(a1);
         
-        boolean res = lista.contains(99999);
+        boolean res = lista.contains(a1);
         long fim = System.currentTimeMillis();
                 
         System.out.println(res);
