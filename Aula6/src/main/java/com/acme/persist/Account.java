@@ -1,7 +1,7 @@
-package com.acme.back;
+package com.acme.persist;
 
-import com.acme.back.BankAccountException;
 import java.io.Serializable;
+import java.util.Date;
 
 public class Account implements Serializable {
 
@@ -12,7 +12,12 @@ public class Account implements Serializable {
     private boolean active;
     private AccountType type;
     private transient String password;
+    private Date creationDate;
     
+    //Constructor
+    public Account(){
+        creationDate = new Date();
+    }
     
     // Operations
     public void take(float amount) throws BankAccountException {
@@ -76,6 +81,20 @@ public class Account implements Serializable {
     public void setActive(boolean active) {
         this.active = active;
     }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public Date getCreationDate() {
+        return creationDate;
+    }
+
+   
     
     
 }

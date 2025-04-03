@@ -1,0 +1,6 @@
+com\acme\persist\BankAccountException.class
+com\acme\persist\persistObject.class
+com\acme\persist\AccountType.class
+com\acme\persist\Account.class
+com\acme\text\TextMngr.class
+com\acme\persist\Customer.class
