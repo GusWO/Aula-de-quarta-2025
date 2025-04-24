@@ -1,7 +1,7 @@
-Wed Apr 16 19:53:36 GMT-03:00 2025 : Apache Derby Servidor de Rede - 10.17.1.0 - (1913217) iniciado e pronto para aceitar conexões na porta 1527 em {3}
+Wed Apr 23 19:41:17 GMT-03:00 2025 : Apache Derby Servidor de Rede - 10.17.1.0 - (1913217) iniciado e pronto para aceitar conexões na porta 1527 em {3}
 ----------------------------------------------------------------
-Wed Apr 16 20:09:49 GMT-03:00 2025:
- Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instância a816c00e-0196-40ce-cb23-0000433479f5
+Wed Apr 23 19:41:24 GMT-03:00 2025:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instância a816c00e-0196-64d0-0725-0000433479f5
 no diretório de banco de dados C:\Users\gustavo.obadowski\ProgramaçãoCamadaDeNegocio\Aula-de-quarta-2025\MyDB\sample 
 
 java.vendor=Oracle Corporation
@@ -13,13 +13,26 @@ os.version=10.0
 derby.system.home=C:\Users\gustavo.obadowski\ProgramaçãoCamadaDeNegocio\Aula-de-quarta-2025\MyDB
 Carregador de classe do banco de dados iniciado - derby.database.classpath=''
 ----------------------------------------------------------------
-Wed Apr 16 20:12:01 GMT-03:00 2025:
-Encerrando a instância a816c00e-0196-40ce-cb23-0000433479f5
-Wed Apr 16 20:12:01 GMT-03:00 2025 Thread[#35,DRDAConnThread_3,5,main] (DATABASE = sample), (DRDAID = {3}), Banco de dados 'sample' fechado.
+Wed Apr 23 20:36:57 GMT-03:00 2025:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instância cead00d8-0196-64d0-0725-0000433479f5
+no diretório de banco de dados C:\Users\gustavo.obadowski\ProgramaçãoCamadaDeNegocio\Aula-de-quarta-2025\MyDB\MyDB 
+
+java.vendor=Oracle Corporation
+java.runtime.version=23.0.2+7-58
+user.dir=C:\Users\gustavo.obadowski\Desktop\db-derby-10.17.1.0-bin
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\gustavo.obadowski\ProgramaçãoCamadaDeNegocio\Aula-de-quarta-2025\MyDB
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
 ----------------------------------------------------------------
-Wed Apr 16 20:12:08 GMT-03:00 2025:
- Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instância 7337412a-0196-40ce-cb23-0000433479f5
-no diretório de banco de dados C:\Users\gustavo.obadowski\ProgramaçãoCamadaDeNegocio\Aula-de-quarta-2025\MyDB\sample 
+Wed Apr 23 20:36:57 GMT-03:00 2025:
+Encerrando a instância cead00d8-0196-64d0-0725-0000433479f5
+Wed Apr 23 20:36:57 GMT-03:00 2025 Thread[#35,DRDAConnThread_3,5,main] (DATABASE = MyDB), (DRDAID = {12}), Banco de dados 'MyDB' fechado.
+----------------------------------------------------------------
+Wed Apr 23 20:37:05 GMT-03:00 2025:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instância ae3341ca-0196-64d0-0725-0000433479f5
+no diretório de banco de dados C:\Users\gustavo.obadowski\ProgramaçãoCamadaDeNegocio\Aula-de-quarta-2025\MyDB\MyDB 
 
 java.vendor=Oracle Corporation
 java.runtime.version=23.0.2+7-58
