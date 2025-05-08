@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<experiment>
+
+    <repeat>1</repeat>
+    <time-limit>120</time-limit>
+    <interval>5</interval>
+    <arrival-rates>200,400,600,800,1000</arrival-rates>
+    <threads>1,2,4,6,8</threads>    
+    <number-of-messages>100000,200000</number-of-messages>
+    <stats-folder>./cafe-stats/</stats-folder>
+    
+</experiment>
+

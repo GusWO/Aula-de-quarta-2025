@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<CafeOrder>
+      
+    <OrderId>66f29758-c041-4c7a-a976-e757ba1312f4</OrderId>
+      
+    <Drinks>
+            
+        <Drink id="1">
+                  
+            <Name>Caipirinha</Name>
+                  
+            <Type>Cold</Type>
+                  
+            <Quantity/>
+                
+        </Drink>
+            
+        <Drink id="99">
+                  
+            <Name>Expresso</Name>
+                  
+            <Type>Hot</Type>
+                  
+            <Quantity>1</Quantity>
+                
+        </Drink>
+            
+        <Drink id="3">
+                  
+            <Name>Expresso</Name>
+                  
+            <Type>Hot</Type>
+                  
+            <Quantity/>
+                
+        </Drink>
+            
+  
+    </Drinks>
+    
+</CafeOrder>

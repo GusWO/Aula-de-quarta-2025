@@ -51,7 +51,7 @@ public class InsereDisciplina {
             int maxConn = dbmeta.getMaxConnections();
             System.out.println(maxConn);
             
-            dbmeta.suppor
+            
             
             
             pstmt.close();

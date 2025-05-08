@@ -42,3 +42,12 @@ os.arch=amd64
 os.version=10.0
 derby.system.home=C:\Users\gustavo.obadowski\ProgramaçãoCamadaDeNegocio\Aula-de-quarta-2025\MyDB
 Carregador de classe do banco de dados iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Wed Apr 23 22:14:16 GMT-03:00 2025: Shutting down Derby engine
+----------------------------------------------------------------
+Wed Apr 23 22:14:16 GMT-03:00 2025:
+Encerrando a instância ae3341ca-0196-64d0-0725-0000433479f5
+----------------------------------------------------------------
+Wed Apr 23 22:14:16 GMT-03:00 2025:
+Encerrando a instância a816c00e-0196-64d0-0725-0000433479f5
+----------------------------------------------------------------

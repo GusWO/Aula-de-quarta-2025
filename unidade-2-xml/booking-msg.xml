@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Mail>
+    <From>viagens@acme.com.br</From>
+    <To>rzfrantz@unijui.edu.br</To>
+    <Subject>Your Travel Booking #5874926811</Subject>
+    <Body>This is to confirm your booking.
+        Flight Details:
+        Departure date: 01/Feb/2026 
+        Departure flight: IB3457 
+        Return date: 15/Apr/2026 
+        Return flight: IB8816 
+
+
+        Hotel Datails:
+        Checkin: 01/Feb/2026 
+        Checkout: 15/Apr/2026 
+
+
+        TRAVEL TOTAL COST: R$ 2356,73</Body>
+</Mail>
