@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
@@ -64,7 +65,9 @@ public class Contadorpalavras {
         System.out.println(resposta);
         
         //ordem decrescente de frequência
-        HashMap<String, Integer> frequencia = new HashMap<>();
+        
+        List<String> palavrasOrdemDec = palavrasEmOrdem.stream().distinct()
+                .sorted((p1, p2) -> )
         }
     
 }
