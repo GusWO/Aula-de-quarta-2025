@@ -26,6 +26,9 @@ public class Start {
 
         // Lista mensagens com a prioridade informada.
         MessageManagerDB.printMessages(Message.Priority.LOWEST);
+        
+        //checa as prios
+        MessageManagerDB.checaPrioridade(Message.Priority.LOWEST);
 
     }
 
