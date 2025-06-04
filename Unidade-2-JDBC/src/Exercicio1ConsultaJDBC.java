@@ -19,7 +19,7 @@ public class Exercicio1ConsultaJDBC {
     
     public static void main(String[] args) {
         
-        String url = "jdbc:derby://localhost:1527/sample";
+        String url = "jdbc:derby://localhost:3306/sample";
         String user = "app";
         String password = "app";
         Connection conn = null;

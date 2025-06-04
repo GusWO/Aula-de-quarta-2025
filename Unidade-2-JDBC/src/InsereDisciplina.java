@@ -7,7 +7,7 @@ public class InsereDisciplina {
         
         String user = "root";
         String passwrd = "root";
-        String url = "jdbc:derby://localhost:1527/MyDB ";
+        String url = "jdbc:derby://localhost:3306/MyDB";
         Connection conn = null;
         PreparedStatement pstmt = null;
         

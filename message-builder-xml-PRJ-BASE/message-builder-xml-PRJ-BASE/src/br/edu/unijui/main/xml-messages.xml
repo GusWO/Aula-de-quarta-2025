@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MESSAGES>
+    
+    <MESSAGE order="...">
+        <ID> ... </ID>
+        <PRIORITY> ... </PRIORITY>
+        <CREATION-DATE> ... </CREATION-DATE>
+        <EXPIRATION-DATE> ... </EXPIRATION-DATE>
+        <CONTENT> ... </CONTENT>
+    </MESSAGE>
+    
+</MESSAGES>
+
