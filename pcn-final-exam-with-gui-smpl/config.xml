@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   
+    <database user = "a" 
+              password = "a"
+              host-name = "localhost" 
+              port = "1527" 
+              instance = "DBcovid" 
+              enable-transactions = "yes"
+    />
+    
+    <log enable = "yes"
+         format = "simple"
+         file-name = "system.log"
+         append = "yes"
+         print-console = "yes"
+    />
+    
+</config>
+
+
+
