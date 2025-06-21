@@ -1,0 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.acme.assync;
+
+import java.util.List;
+
+/**
+ *
+ * @author gusta
+ */
+public class CProducer extends Thread{
+    
+    private List<String> lista;
+
+    public CProducer(List<String> list) {
+        this.lista = list;
+    }
+
+    @Override
+    public void run() {
+
+        for (int i = 0; i < 1000; i++) {
+           
+            synchronized (this) {
+                 lista.add("C");
+            }
+        }
+    }
+}
